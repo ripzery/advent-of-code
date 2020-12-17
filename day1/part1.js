@@ -1,6 +1,6 @@
 const { convertInputToArray } = require('../util')
 
-const input = convertInputToArray()
+const input = convertInputToArray('day1')
 
 for(let i = 0; i < input.length - 1; i++){
   const first = parseInt(input[i])

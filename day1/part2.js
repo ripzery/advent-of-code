@@ -1,5 +1,5 @@
 const { convertInputToArray } = require('../util')
-const input = convertInputToArray()
+const input = convertInputToArray('day1')
 
 function solve(target, inputs, numbers) {
   console.log(numbers, 'target: ' + target)
